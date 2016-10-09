@@ -5,11 +5,13 @@
 ***
 1. 因为上学期使用过Ubuntu学习pintos，所以很多环境已经配置好了。按照PPT上的教程，一步一步也没有出问题。
 2. 安装环境
+
 `sudo apt-get update //更新应用商店（或者说应用库）
 sudo apt-get install //安装ant
 sudo apt-get install openjdk-7-jdk //安装Java库
 sudo apt-get install unzip //安装解压软件，这个我之前就有`
 3. 用刚刚装好的解压软件进行解压，并放入dol文件夹
+
 `mkdir dol
 unzip dol_ethz.zip -d dol
 tar -zxvf systemc-2.3.1.tgz`
